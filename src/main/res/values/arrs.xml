@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StatusBarView">
+        <attr name="image_wifi" format="reference" />
+        <attr name="image_battery" format="reference" />
+        <attr name="image_signal" format="reference" />
+
+        <attr name="progress_visibility" format="enum" >
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+        <attr name="text" format="string" />
+        <attr name="time_format" format="string" />
+    </declare-styleable>
+</resources>
